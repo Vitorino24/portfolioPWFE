@@ -1,0 +1,110 @@
+*{
+    margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.caixa{
+    width: auto;
+    height: 747px;
+    background-color: #484d50;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    /* border: 2px solid black;  */
+   
+}
+.quadrado{
+    width: 850px;
+    height: 320px;
+    background-color: #888586;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 30px;
+    /* border: 2px solid black;  */
+    
+    
+}
+.caixa25{
+    /* border: 2px solid black;  */
+    width: 50%;
+    height:70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.caixa50b{
+    /* border: 2px solid black;  */
+    background-color:#888586;
+    border-radius: 30px;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    
+
+}
+.caixa50{
+    /* border: 2px solid black;  */
+    background-color:#888586;
+    border-radius: 30px;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    
+
+}
+.custom-button {
+    background-color: #294EBC;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+    margin: 10px;
+    font-size: large;
+}
+
+.custom-button:hover {
+    background-color: #2980b9;
+}
+
+.caixa25 input{
+    background-color: #888586;
+    color: white;
+    height: 40px;
+}
+.caixa25 label{
+    color: #fff;
+    margin-right: 10px;
+    font-size: large;
+}
+
+/* CELULAR */
+@media screen and (max-width:768px) {
+
+    .caixa50 {
+        background-color: #888586;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    .caixa25 {
+        width: 100%;
+    }
+    .caixa25 input {
+        width: 30%;
+    }
+    .quadrado {
+        border-radius: 30px;
+
+    }
+}
